@@ -11,7 +11,7 @@ namespace csSaveEditor
 			int hp;
 			Console.WriteLine("HP Editor");
 			Console.WriteLine("---------------------------");
-			Console.WriteLine("Enter the desire HP: ");
+			Console.Write("Enter the desire HP: ");
 			hp = Convert.ToInt32(Console.ReadLine());
 
 			using (BinaryWriter bw = new BinaryWriter(new FileStream("Profile.dat", FileMode.Open)))
@@ -28,7 +28,7 @@ namespace csSaveEditor
 			int maxHp;
 			Console.WriteLine("HP Editor");
 			Console.WriteLine("---------------------------");
-			Console.WriteLine("Enter the desire max HP: ");
+			Console.Write("Enter the desire max HP: ");
 			maxHp = Convert.ToInt32(Console.ReadLine());
 			using (BinaryWriter bw = new BinaryWriter(new FileStream("Profile.dat", FileMode.Open)))
 			{
@@ -100,6 +100,25 @@ namespace csSaveEditor
 			{
 				bw.BaseStream.Seek(currentWeapon, SeekOrigin.Begin);
 
+			}
+		}
+
+		public void changeSong()
+		{
+			int song;
+			Console.Clear();
+			Console.WriteLine("Song Editor");
+			Console.WriteLine("---------------------------");
+			Console.WriteLine("Change current song. Enter the songs value from here: https://www.cavestory.org/guides/profile.txt");
+			Console.WriteLine("Change the hexademical value to decimal");
+
+			Console.WriteLine("Enter desired song: ");
+			song = Convert.ToInt32(Console.ReadLine());
+
+			using (BinaryWriter bw = new BinaryWriter(new FileStream("Profile.dat", FileMode.Open)))
+			{
+				bw.BaseStream.Seek(12, SeekOrigin.Begin);
+				bw.Write(song);
 			}
 		}
 	}

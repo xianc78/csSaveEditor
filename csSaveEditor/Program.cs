@@ -3,10 +3,6 @@ using System.IO;
 
 namespace csSaveEditor
 {
-
-	enum modes { menu, inventory, hp, ammo }
-
-
 	class MainClass
 	{
 
@@ -24,6 +20,7 @@ namespace csSaveEditor
 				Console.WriteLine("1) View Data");
 				Console.WriteLine("2) Edit HP");
 				Console.WriteLine("3) Edit Max HP");
+				Console.WriteLine("4) Edit Current Song");
 				choice = Console.ReadLine();
 				if (choice == "1")
 				{
@@ -36,6 +33,10 @@ namespace csSaveEditor
 				else if (choice == "3")
 				{
 					editor.editMaxHp();
+				}
+				else if (choice == "4")
+				{
+					editor.changeSong();
 				}
 				else
 				{

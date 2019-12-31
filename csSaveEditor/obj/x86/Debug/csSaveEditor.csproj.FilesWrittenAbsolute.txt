@@ -1,0 +1,5 @@
+/home/nathan/Projects/csSaveEditor/csSaveEditor/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nathan/Projects/csSaveEditor/csSaveEditor/bin/Debug/csSaveEditor.pdb
+/home/nathan/Projects/csSaveEditor/csSaveEditor/bin/Debug/csSaveEditor.exe
+/home/nathan/Projects/csSaveEditor/csSaveEditor/obj/x86/Debug/csSaveEditor.exe
+/home/nathan/Projects/csSaveEditor/csSaveEditor/obj/x86/Debug/csSaveEditor.pdb

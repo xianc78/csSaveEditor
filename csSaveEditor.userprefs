@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{91CF2B5F-7118-4BDE-AB52-62B4E6AC6F3E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="csSaveEditor/Editor.cs">
+    <Files>
+      <File FileName="csSaveEditor/Program.cs" Line="24" Column="33" />
+      <File FileName="csSaveEditor/Editor.cs" Line="29" Column="24" />
+      <File FileName="csSaveEditor/Enums.cs" Line="1" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.csSaveEditor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
